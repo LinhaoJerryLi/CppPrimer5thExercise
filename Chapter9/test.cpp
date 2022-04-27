@@ -1,13 +1,11 @@
 #include <array>
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
 {
-    array<int, 2> arr{1, 2};
-    arr = {3};
-    array<int, 2> arr2{3, 4};
-    arr2.assign(arr.cbegin(), arr.cend());
-    cout << arr2[0] << endl;
-    return 0;
+    string s1 = "hello there";
+    string s2 = "I m linhao";
+    s1.insert()
 }

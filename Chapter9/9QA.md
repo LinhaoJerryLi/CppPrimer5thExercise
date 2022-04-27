@@ -55,3 +55,24 @@ iter works as long as value type can convert.
 # 9.17
 
 must has < defined. same type as c2, must not be unordered asso container.
+
+# 9.21
+
+same behavior, very expensive.
+
+# 9.23
+
+same
+
+# 9.29
+
+resize it to 100 and use default initializer to create the following 75 elements
+resize to 10 and eliminate the last 15 elements.
+
+# 9.30
+
+for class type vector, default constructor of that class should be provided.
+
+# 9.32
+
+no, the order of exection is undetermined.
