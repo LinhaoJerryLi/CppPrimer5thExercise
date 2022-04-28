@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     int i = 5;
-    auto f = [&i]() -> bool
+    auto f = [i]() mutable -> bool
     {
         if (i > 0)
         {
