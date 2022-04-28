@@ -76,3 +76,35 @@ for class type vector, default constructor of that class should be provided.
 # 9.32
 
 no, the order of exection is undetermined.
+
+# 9.35
+
+capacity: max size before rellocation.
+size: num of elements
+
+# 9.36
+
+no
+
+# 9.37
+
+as a array has fixed size, and list's memory is not continuous.
+
+# 9.39
+
+reserve 1024 strings place
+
+# 9.40
+
+256: 1024
+512: 1024
+1000: 2000
+1048: 2048
+
+# 9.41
+
+reserve 200 place in the string
+
+# 9.48
+
+string:npos
